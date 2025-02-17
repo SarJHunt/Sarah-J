@@ -30,13 +30,13 @@ const ContentWrapper = styled.div`
 `
 
 const Title = styled.h1`
-  font-size: 4rem;
+  font-size: 3rem;
   color: #fff;
   text-align: center;
   font-family: 'Eurostile', 'Orbitron', 'Audiowide', 'Blender Pro', 'Conthrax', sans-serif;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   font-weight: 300;
 `
 
