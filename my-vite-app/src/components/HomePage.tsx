@@ -30,7 +30,7 @@ const ContentWrapper = styled.div`
 `
 
 const Title = styled.h1`
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: #fff;
   text-align: center;
   font-family: 'Eurostile', 'Orbitron', 'Audiowide', 'Blender Pro', 'Conthrax', sans-serif;
@@ -38,13 +38,6 @@ const Title = styled.h1`
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   letter-spacing: 3px;
   font-weight: 300;
-`
-
-const Subtitle = styled.p`
-  font-size: 1.5rem;
-  color: #e0e0e0;
-  font-family: 'Eurostile', 'Exo', 'Chakra Petch', 'Roboto', sans-serif;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 `
 
 const Star = styled.div`
@@ -71,8 +64,7 @@ const HomePage: React.FC = () => {
     <HomePageWrapper>
       {stars}
       <ContentWrapper>
-        <Title>Welcome to my world...</Title>
-        <Subtitle>Explore the missions</Subtitle>
+        <Title>Projects</Title>
       </ContentWrapper>
     </HomePageWrapper>
   )
